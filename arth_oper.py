@@ -1,10 +1,9 @@
 try:
-  a=float(input("enter first number"))
-  b=float(input("enter second number"))
+    a = float(input("Enter first number: "))
+    b = float(input("Enter second number: "))
 
-  print(f"Addition:{a+b}")
-  print(f"Subtraction:{a-b}")
-expect ValueError:
-print("please enter valid numbers.")
+    print(f"Addition: {a + b}")
+    print(f"Subtraction: {a - b}")
 
-
+except ValueError:
+    print("Please enter valid numbers.")
